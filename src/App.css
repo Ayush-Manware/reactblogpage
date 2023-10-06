@@ -1,16 +1,28 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap');
 
 *{
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Montserrat', sans-serif; thin */
+  /* font-family: 'Pacifico', cursive; cursive */
+  /* font-family: 'Ysabeau Infant', sans-serif; */
+}
+
+:root{
+  --blackText: black;
+  --grayText: gray;
+}
+
+body{
+  padding: 0vw 3vw;
 }
 
 .logoContainer{
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 2px;
+  color:var(--blackText);
+  padding: 0px;
 }
 
 .the{
@@ -20,6 +32,7 @@
 
 .siren{
   font-size: 2vw;
+  font-family: 'Pacifico', cursive;
 }
 
 .siren::first-letter{
@@ -34,5 +47,13 @@ a{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2vw;
+  padding: 1vw;
+  border-bottom: 2px solid var(--grayText);
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.navbar a{
+  color: var(--blackText);
 }

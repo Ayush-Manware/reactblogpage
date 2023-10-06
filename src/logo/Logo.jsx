@@ -3,8 +3,8 @@ import React from "react";
 const Logo = () => {
   return (<>
     <div className="logoContainer">
-        <div className="the">The</div>
-        <div className="siren">Siren</div>
+        <h1 className="the">The</h1>
+        <h1 className="siren">Siren</h1>
     </div>
   </>);
 };
