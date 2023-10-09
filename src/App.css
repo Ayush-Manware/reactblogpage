@@ -37,6 +37,10 @@ a{
   font-size: 2vw;
   letter-spacing: 0.2vw;
   font-family: 'Ysabeau Infant', sans-serif;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  backdrop-filter: blur(10px);
 }
 
 .navbar a{
