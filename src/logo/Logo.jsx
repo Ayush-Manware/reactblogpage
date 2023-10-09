@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
+import logoImage from './two.png'; 
 
 const Logo = () => {
-  return (<>
-    <div className="logoContainer">
-        <h1 className="the">The</h1>
-        <h1 className="siren">Siren</h1>
+  return (
+    <div className='logoContainer'>
+      <img className='logoImage' src={logoImage} alt="Logo" />
     </div>
-  </>);
+  );
 };
 
 export default Logo;

@@ -5,38 +5,23 @@
   /* font-family: 'Merriweather', serif; */
   /* font-family: 'Montserrat', sans-serif; thin */
   /* font-family: 'Pacifico', cursive; cursive */
-  /* font-family: 'Ysabeau Infant', sans-serif; */
 }
 
 :root{
   --blackText: black;
   --grayText: gray;
+  /* font-family: 'Ysabeau Infant', sans-serif; */
+  --headingFont: 'Ysabeau Infant', sans-serif;
 }
 
 body{
   padding: 0vw 3vw;
 }
 
-.logoContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:var(--blackText);
-  padding: 0px;
-}
-
-.the{
-  rotate: 270deg;
-  font-size: 1.5vw;
-}
-
-.siren{
-  font-size: 2vw;
-  font-family: 'Pacifico', cursive;
-}
-
-.siren::first-letter{
-  font-size: 4vw;
+.logoImage{
+  width: 15vw;
+  display: block;
+  margin: auto;
 }
 
 a{
@@ -56,4 +41,12 @@ a{
 
 .navbar a{
   color: var(--blackText);
+  transition: all 0.3s linear;
+}
+
+.navbar a:focus{
+  /* border-bottom: 2px solid red; */
+  text-shadow: 1px 1px 4px rgba(255, 0, 0, 0.786);
+  color: red;
+  font-weight: bolder;
 }
