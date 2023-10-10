@@ -6,6 +6,7 @@ import Technology from "../components/Technology";
 import Hollywood from "../components/Hollywood";
 import Fitness from "../components/Fitness";
 import Food from "../components/Food";
+import { StoredData } from "../store/Store";
 
 const Navbar = () => {
   return (
@@ -31,14 +32,16 @@ const Navbar = () => {
             <Link to={"/food"}>Food</Link>
           </div>
         </div>
-        <Routes>
-          <Route path={"/"} element={<Home />} />
-          <Route path="/bollywood" element={<Bollywood />} />
-          <Route path="/technology" element={<Technology />} />
-          <Route path={"/hollywood"} element={<Hollywood />} />
-          <Route path={"/fitness"} element={<Fitness />} />
-          <Route path={"/food"} element={<Food />} />
-        </Routes>
+        <StoredData>
+          <Routes>
+            <Route path={"/"} element={<Home />} />
+            <Route path={"/bollywood"} element={<Bollywood />} />
+            <Route path={"/technology"} element={<Technology />} />
+            <Route path={"/hollywood"} element={<Hollywood />} />
+            <Route path={"/fitness"} element={<Fitness />} />
+            <Route path={"/food"} element={<Food />} />
+          </Routes>
+        </StoredData>
       </BrowserRouter>
     </>
   );
