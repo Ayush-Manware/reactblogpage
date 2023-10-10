@@ -82,8 +82,7 @@ function StoredData(props) {
       id: 10,
       category: "Bollywood",
       name: "Haddi",
-      image:
-        "https://assets.gadgets360cdn.com/pricee/assets/product/202308/haddi1_1691495050.jpg?downsize=215:301",
+      image:"https://th.bing.com/th/id/OIP.SazKqIOQ7rvOlJ3cpi8ArwHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       text: "Haddi is a crime thriller movie or web series1234that stars Nawazuddin Siddiqui as a transgender rookie named Haddi134. Haddi joins a gang of transgenders in Delhi and becomes a ruthless criminal123. She is on a mission to exact revenge from those who destroyed her life2, but she also has dark secrets and a shady business that could expose her2. The movie or web series is directed by Akshat Ajay Sharma and produced by Zee Studios and Anandita Studios14.",
     },
 
