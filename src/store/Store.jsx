@@ -11,7 +11,7 @@ function StoredData(props) {
       category: "Bollywood",
       name: "Gadar 2",
       image:
-        "https://www.filmibeat.com/ph-big/2023/07/gadar-2_169047553820.jpg",
+        "https://th.bing.com/th/id/OIP.8tdRn8KyuF2yEXUZ1xFMnAHaE1?pid=ImgDet&rs=1",
       text: "Gadar 2 (transl.Rebellion 2; subtitled onscreen with The Katha Continues) is a 2023 Indian Hindi-language period action drama film directed and produced by Anil Sharma, and written by Shaktimaan Talwar. A sequel to Gadar: Ek Prem Katha, It starred Sunny Deol, Ameesha Patel and Utkarsh Sharma, who reprised their roles from the previous film.[5] In the film, Tara Singh returns to Pakistan in order to rescue his imprisoned son before the Indo-Pakistani War of 1971.",
     },
     {

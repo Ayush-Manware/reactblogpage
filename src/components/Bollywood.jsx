@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import Store from "../store/Store";
+import { Link } from "react-router-dom";
 
 const Bollywood = () => {
   const [bollywoodData] = useContext(Store);
-  console.log(bollywoodData);
 
   const cate = "Bollywood";
 
@@ -14,25 +14,27 @@ const Bollywood = () => {
       <div className="bollywoodContainer">
         <div className="left">
           <h2 className="bollywoodHeading">Bollywood</h2>
-            {filtered.map((item, index) => (
-              <>
+          {filtered.map((item, index) => (
+            <>
+              <Link to={`/info/${item.id}`} >
                 <div className="cardContainer">
-                  <div className="cardImage">
-                    <img src={item.image} alt="Error" />
+                  <div className="cardImageContainer">
+                    <img className="cardImage" src={item.image} alt="Error" />
                   </div>
                   <div className="cardContent">
                     <h2>{item.name}</h2>
-                    <p>{item.text.slice(0, 150)}...</p>
+                    <p>{item.text.slice(0, 130)}...</p>
                   </div>
                 </div>
-              </>
-            ))}
-          </div>
-
-          <div className="right">
-            <h2>Right</h2>
-          </div>
+              </Link>
+            </>
+          ))}
         </div>
+
+        <div className="right">
+          <h2>Right</h2>
+        </div>
+      </div>
     </>
   );
 };

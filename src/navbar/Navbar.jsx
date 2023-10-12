@@ -7,6 +7,7 @@ import Hollywood from "../components/Hollywood";
 import Fitness from "../components/Fitness";
 import Food from "../components/Food";
 import { StoredData } from "../store/Store";
+import Dynamic from "./Dynamic";
 
 const Navbar = () => {
   return (
@@ -40,6 +41,7 @@ const Navbar = () => {
             <Route path={"/hollywood"} element={<Hollywood />} />
             <Route path={"/fitness"} element={<Fitness />} />
             <Route path={"/food"} element={<Food />} />
+            <Route path="/info/:id" element={<Dynamic />} />
           </Routes>
         </StoredData>
       </BrowserRouter>

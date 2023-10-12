@@ -81,20 +81,33 @@ a{
   border: 1px solid red; 
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin: 1vw 0vw;
 }
 
-.cardImage{
-  width: 45vw;
-  /* border: 1px solid red;  */
+.cardImageContainer{
+  width: 50vw;
+  border: 1px solid red; 
+  height: 100%;
+  overflow: hidden;
 }
 
-.cardImage img{
+.cardImageContainer:hover .cardImage{
+  scale: 2;
+}
+
+.cardImage{
   width: 100%;
   height: fit-content;
+  transition: all 5s linear;
 }
 
 .cardContent{
   /* border: 1px solid red;  */
+  padding: 0vw 1vw;
+  box-sizing: border-box;
+}
+
+.cardContent h2{
+  font-family: var(--headingFont);
 }
