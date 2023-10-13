@@ -1,34 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap");
 
-*{
+* {
   /* border: 1px solid greenyellow; */
   /* font-family: 'Merriweather', serif; */
   /* font-family: 'Montserrat', sans-serif; thin */
   /* font-family: 'Pacifico', cursive; cursive */
 }
 
-:root{
-  --blackText: black;
+:root {
+  --blackText: rgb(35, 35, 35);
   --grayText: gray;
-  /* font-family: 'Ysabeau Infant', sans-serif; */
-  --headingFont: 'Ysabeau Infant', sans-serif;
+  --headingFont: "Ysabeau Infant", sans-serif;
 }
 
-body{
+body {
   padding: 0vw 3vw;
 }
 
-.logoImage{
+.logoImage {
   width: 15vw;
   display: block;
   margin: auto;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.navbar{
+a h2,h4{
+  color: var(--blackText);
+}
+
+a p{
+  color: var(--grayText);
+}
+
+.navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -36,78 +43,153 @@ a{
   border-bottom: 2px solid var(--grayText);
   font-size: 2vw;
   letter-spacing: 0.2vw;
-  font-family: 'Ysabeau Infant', sans-serif;
   position: sticky;
   top: 0px;
   z-index: 1;
-  backdrop-filter: blur(10px);
+  background-color: white;
 }
 
-.navbar a{
+.navbar a {
   color: var(--blackText);
   transition: all 0.3s linear;
+  font-family: 'Pacifico', cursive;
 }
 
-.navbar a:focus{
+.navbar a:focus {
   text-shadow: 1px 1px 4px rgba(255, 0, 0, 0.786);
   color: red;
   font-weight: bolder;
 }
 
-.bollywoodContainer{
-  /* border: 1px solid red; */
+.bollywoodContainer {
   padding: 1vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-} 
+}
 
-.left{
-  /* border: 1px solid red; */
+.left {
   width: 54vw;
 }
 
-.right{
-  border: 1px solid red;
+.right {
   width: 45vw;
-
 }
 
-.bollywoodHeading{
+.bollywoodHeading {
   font-size: 3vw;
 }
 
-.cardContainer{
-  border: 1px solid red; 
+.cardContainer {
+  border-bottom: 0.2vw solid gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1vw 0vw;
+  transition: all 0.2s linear;
+  width: 45vw;
 }
 
-.cardImageContainer{
+.cardContainer:hover {
+  box-shadow: 0.2vw 0.2vw 1.5vw gray;
+  border-bottom: 0.2vw solid red;
+}
+
+.cardImageContainer {
   width: 50vw;
-  border: 1px solid red; 
   height: 100%;
   overflow: hidden;
 }
 
-.cardImageContainer:hover .cardImage{
-  scale: 2;
+.cardImageContainer:hover .cardImage {
+  scale: 1.5;
 }
 
-.cardImage{
-  width: 100%;
-  height: fit-content;
-  transition: all 5s linear;
+.cardImage {
+  width: 22vw;
+  height: 11vw;
+  /* transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1); */
 }
 
-.cardContent{
-  /* border: 1px solid red;  */
+.cardContent {
   padding: 0vw 1vw;
   box-sizing: border-box;
 }
 
-.cardContent h2{
+.cardContent h2 {
   font-family: var(--headingFont);
+}
+
+.leftContent{
+  text-align: justify;
+  margin: 0px;
+}
+
+.rightCardOne{
+  border-bottom: 2px solid var(--grayText);
+}
+
+.rightCardOneImg {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.rightCardOneHeading {
+  font-family: var(--headingFont);
+}
+
+.rightContent{
+  text-align: justify;
+}
+
+.rightFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightOne {
+  width: 35vw;
+}
+
+.rightCardNumber{
+  font-size: 5vw;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 0px;
+}
+
+.rightCardTwo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw auto;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0.2vw 1vw;
+}
+
+.rightcardTwiImg{
+  width: 15vw;
+  height: 11vw;
+}
+
+.rightCardTwoName{
+  padding: 0vw 0.5vw;
+}
+
+.rightCardTwoNumber{
+  font-size: 4vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.advertisement{
+  height: 30vw;
+  border: 1px solid gray;
+}
+
+*{
+  /* border: 1px solid greenyellow; */
 }
