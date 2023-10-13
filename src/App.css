@@ -108,7 +108,7 @@ a p{
 .cardImage {
   width: 22vw;
   height: 11vw;
-  /* transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1); */
+  transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1);
 }
 
 .cardContent {
