@@ -114,7 +114,7 @@ function StoredData(props) {
     {
       id: 14,
       category: "Technology",
-      name: " MegaBook T1 laptop",
+      name: "MegaBook T1",
       image:
         "https://th.bing.com/th?id=ORMS.f0a526d5e24ac15ad4a33a3e86a8d6a6&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1&dpr=1.25&p=0",
       text: "Thinese smartphone maker Tecno has forayed into the laptop segment with the new Tecno MegaBook T1. The new laptop may attract a lot of potential customers because of the aggressive pricing despite offering up to Intel Core i7, 1TB SSD, and 16GB of RAM. The laptop boasts a sleek design, which may also resemble Apple MacBooks. It features an aluminium metal casing and a large trackpad. The display has a considerable chin with Tecno branding, which again resembles the MacBook branding on Apple laptops.",
@@ -122,7 +122,7 @@ function StoredData(props) {
     {
       id: 15,
       category: "Technology",
-      name: "Fastest Launch of FAST Services",
+      name: "Fastest Launch",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1c1alE.img?w=534&h=300&m=6",
       text: "Tata Elxsi, a global leader in product engineering and innovation-led design services, announced a strategic alliance with Ateme, a global leader in video compression, delivery, and streaming solutions with innovation at its core, to deliver a pre-integrated FAST (Free Ad-Supported Television) channel deployment solution, the company on Wednesday announced through an exchange filing.",
@@ -130,7 +130,7 @@ function StoredData(props) {
     {
       id: 16,
       category: "Technology",
-      name: "Over 50% of drugs to involve AI by 2030",
+      name: "Over 50% of drugs",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDMWy.img?w=534&h=300&m=6",
       text: "CPHI, a global community for pharmaceutical professionals, predicts that AI would transform all processes in drug development by 2026. Furthermore, by 2030, over 50 per cent of US FDA approvals are anticipated to involve AI-discovered and developed drugs.",
@@ -138,7 +138,7 @@ function StoredData(props) {
     {
       id: 17,
       category: "Technology",
-      name: "What Avinash Malladhi has to say",
+      name: "Avinash Malladhi",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDVC7.img?w=534&h=300&m=6&x=547&y=206&s=173&d=173",
       text: "In the rapidly evolving landscape of enterprise resource planning (ERP), the infusion of intelligence isn't merely a futuristic concept but a prominent reality that is reshaping the fabric of modern organizations already. This transformation is more than streamlined operations; it’s about the amalgamation of two concepts to exist in a symbiotic relationship.",
@@ -146,7 +146,7 @@ function StoredData(props) {
     {
       id: 18,
       category: "Technology",
-      name: "Gen AI has transformed the programming world",
+      name: "Gen AI Programming world",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDCqH.img?w=534&h=300&m=6",
       text: "My coding journey is reflective of the maxim: ‘Change is the only constant’. I started with FoxPro programming and have since worked with SQL, C++, Pl/SQL, Python, Spark, Julia and more. Over the years, advancements such as integrated development environments (IDEs) have been adding intelligence into coding with features like autocompletion, identification of syntactic errors, etc. However, the advent of generative AI has been a step change. AI models are fast becoming co-pilots for coders. The comprehension capability of LLMs has made it possible to generate code snippets and test cases, rapidly convert code from one programming language to another, predict and pre-empt problems, manage system documentation and find ways to optimise code.",
@@ -154,7 +154,7 @@ function StoredData(props) {
     {
       id: 19,
       category: "Technology",
-      name: "Next-gen firewalls needed as attack surface expands",
+      name: "Next-gen firewalls",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDG6P.img?w=398&h=716&m=6&x=120&y=151&s=251&d=430",
       text: "Today’s firewalls – next-gen firewalls as they are called – are more intelligent. They are application aware, which means they can recognise and classify applications passing through it, and help the system make decisions based on the application, its features, and the content it’s carrying. They also have intrusion prevention capability.",
@@ -162,7 +162,7 @@ function StoredData(props) {
     {
       id: 20,
       category: "Technology",
-      name: "New Hub For 5G Equipment Production:",
+      name: "5G Equipment",
       image:
         "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDBGQ.img?w=534&h=293&m=6",
       text: "Samsung is eyeing India as a potential hub for its 5G equipment production, as it contemplates alternatives to China for its manufacturing expansion. The South Korean tech giant is weighing India against Vietnam for this shift",

@@ -1,0 +1,89 @@
+/*(Mobile)*/
+@media (max-width: 767px) {
+  body {
+    /* background-color: rgb(176, 153, 77); */
+  }
+
+  .logoImage {
+    width: 40vw;
+  }
+
+  .navbar {
+    padding: 1vw;
+    /* border-bottom: 2px solid var(--grayText); */
+    font-size: 6vw;
+    letter-spacing: 0.2vw;
+    position: fixed;
+    left: 100vw;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    display: none;
+  }
+
+  .bollywoodHeading {
+    font-size: 8vw;
+    margin: 5vw auto;
+  }
+
+  .bollywoodContainer{
+    flex-direction: column;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .cardContainer{
+    width: 100%;
+    display: block;
+    margin: 5vw auto;
+  }
+
+  .cardImageContainer{
+    width: 100%; 
+  }
+
+  .cardImage{
+    width: 100%;
+    height: auto;
+  }
+
+  .cardContent h2{
+    font-size: 8vw;
+    margin: 1.2vw 0vw;
+  }
+
+  .leftContent{
+    font-size: 4.5vw;
+    text-align: left;
+    padding: 1vw 0.2vw;
+  }
+
+  *{
+    /* border: 1px solid greenyellow; */
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+/*(tablets)*/
+@media (min-width: 768px) {
+  body {
+    background-color: cadetblue;
+  }
+}
+
+/*(desktops)*/
+@media (min-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+}
