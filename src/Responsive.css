@@ -4,19 +4,38 @@
     /* background-color: rgb(176, 153, 77); */
   }
 
-  .logoImage {
-    width: 40vw;
+  .logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
   }
 
+  .logoImage {
+    width: 40vw;
+    display: block;
+    margin: 0vw;
+  }
+
+  .menuIcon {
+    display: block;
+    width: 10vw;
+  }
+  
   .navbar {
     padding: 1vw;
-    /* border-bottom: 2px solid var(--grayText); */
-    font-size: 6vw;
+    border-bottom: none;
+    font-size: 10vw;
+    width: 100%;
     letter-spacing: 0.2vw;
     position: fixed;
-    left: 100vw;
+    left: 0vw;
+    top: 25vw;
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: gainsboro;
+    /* display: block; */
     display: none;
   }
 
@@ -25,65 +44,94 @@
     margin: 5vw auto;
   }
 
-  .bollywoodContainer{
+  .bollywoodContainer {
     flex-direction: column;
   }
 
-  .left{
+  .left {
     width: 100%;
   }
 
-  .cardContainer{
+  .cardContainer {
     width: 100%;
     display: block;
     margin: 5vw auto;
   }
 
-  .cardImageContainer{
-    width: 100%; 
+  .cardImageContainer {
+    width: 100%;
   }
 
-  .cardImage{
+  .cardImage {
     width: 100%;
     height: auto;
   }
 
-  .cardContent h2{
+  .cardContent h2 {
     font-size: 8vw;
     margin: 1.2vw 0vw;
   }
 
-  .leftContent{
+  .leftContent {
     font-size: 4.5vw;
     text-align: left;
     padding: 1vw 0.2vw;
   }
 
-  *{
-    /* border: 1px solid greenyellow; */
+  .right {
+    width: 100%;
   }
 
+  .topPostHeading {
+    font-size: 10vw;
+    margin: 3vw 0vw;
+  }
 
+  .rightOne {
+    width: 100%;
+  }
 
+  .rightCardOneHeading {
+    font-size: 7vw;
+    margin: 1vw 0vw;
+  }
 
+  .rightContent {
+    padding: 0px 1vw;
+  }
 
+  .rightCardNumber {
+    display: none;
+  }
 
+  .rightcardTwiImg {
+    width: 45vw;
+    height: 50vw;
+  }
 
+  .rightCardTwoName {
+    width: 65%;
+  }
 
+  .rightCardTwoNumber {
+    display: none;
+  }
 
-
+  * {
+    /* border: 1px solid greenyellow; */
+  }
 }
 
 /*(tablets)*/
 @media (min-width: 768px) {
   body {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
   }
 }
 
 /*(desktops)*/
 @media (min-width: 1024px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 }

@@ -35,6 +35,10 @@ a p{
   color: var(--grayText);
 }
 
+.menuIcon{
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -108,7 +112,7 @@ a p{
 .cardImage {
   width: 22vw;
   height: 11vw;
-  transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1);
+  /* transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1); */
 }
 
 .cardContent {
@@ -190,6 +194,37 @@ a p{
   border: 1px solid gray;
 }
 
+.dynamicContainer{
+  display: flex;
+  align-items: center;
+}
+
+.dynamicLeft{
+  width: 30vw;
+}
+
+.likeContainer{
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: baseline; */
+}
+
+.likeImage{
+  width: 5vw;
+}
+
+.shareContainer{
+  display: flex;
+}
+
+.shareImage{
+  width: 5vw;
+}
+
+.dynamicRight{
+  width: 40vw;
+}
+
 *{
-  /* border: 1px solid greenyellow; */
+  border: 1px solid greenyellow;
 }
