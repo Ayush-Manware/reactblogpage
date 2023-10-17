@@ -60,7 +60,7 @@ const Hollywood = () => {
             ))}
 
           {filtered
-            .filter((item) => item.id >= 29 && item.id <= 30)
+            .filter((item) => item.id >= 27 && item.id <= 30)
             .map((item, index) => (
               <>
                 <Link className="rightLink" to={`/info/${item.id}`}>

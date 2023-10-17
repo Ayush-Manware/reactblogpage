@@ -19,7 +19,7 @@ function StoredData(props) {
       category: "Bollywood",
       name: "Friday Night Plan",
       image:
-        "https://th.bing.com/th/id/OIP.5fXQoHdpgvbvDEiz0A2lEgHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+        "https://images.unsplash.com/photo-1461603950871-cd64bcf7acf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvbGx5d29vZHxlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=400&q=60",
       text: "Friday Night Plan is a teen comedy about two brothers who sneak out to a party while their mother is away123. The brothers are very different: one is a nerd and the other is a prankster4. They have to overcome their conflicts and work together to avoid getting caught and missing the fun123. The film stars Amrith Jayan, Babil Khan, and Juhi Chawla4.",
     },
     {
@@ -156,7 +156,7 @@ function StoredData(props) {
       category: "Technology",
       name: "Next-gen firewalls",
       image:
-        "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1gDG6P.img?w=398&h=716&m=6&x=120&y=151&s=251&d=430",
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRlY2hub2xvZ3l8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60",
       text: "Today’s firewalls – next-gen firewalls as they are called – are more intelligent. They are application aware, which means they can recognise and classify applications passing through it, and help the system make decisions based on the application, its features, and the content it’s carrying. They also have intrusion prevention capability.",
     },
     {
@@ -174,15 +174,14 @@ function StoredData(props) {
       category: "Hollywood",
       name: "The god Father",
       image:
-        "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+        "https://images.unsplash.com/photo-1532800783378-1bed60adaf58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWN0b3JzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
       text: "Paramount Pictures obtained the rights to the novel for $80,000, before it gained popularity.[3][4] Studio executives had trouble finding a director; the first few candidates turned down the position before Coppola signed on to direct the film but disagreement followed over casting several characters, in particular, Vito (Marlon Brando) and Michael (Al Pacino). Filming took place primarily on location around New York City and in Sicily, and was completed ahead of schedule. The musical score was composed principally by Nino Rota, with additional pieces by Carmine Coppola.",
     },
     {
       id: 22,
       category: "Hollywood",
       name: "The Shawshank Redemption",
-      image:
-        "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+      image:"https://images.unsplash.com/photo-1594908900066-3f47337549d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWN0b3JzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
       text: "The Shawshank Redemption is a 1994 American prison drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption. The film tells the story of banker Andy Dufresne (Tim Robbins), who is sentenced to life in Shawshank State Penitentiary for the murders of his wife and her lover, despite his claims of innocence. Over the following two decades, he befriends a fellow prisoner, contraband smuggler Ellis Red Redding (Morgan Freeman), and becomes instrumental in a money laundering operation led by the prison warden Samuel Norton (Bob Gunton). William Sadler, Clancy Brown, Gil Bellows, and James Whitmore appear in supporting roles.",
     },
     {
@@ -190,7 +189,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "Schindler's List",
       image:
-        "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+        "https://images.unsplash.com/photo-1468857006728-bba1dba0eb7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Ideas for a film about the Schindlerjuden (Schindler Jews) were proposed as early as 1963. Poldek Pfefferberg, one of the Schindlerjuden, made it his life's mission to tell Schindler's story. Spielberg became interested when executive Sidney Sheinberg sent him a book review of Schindler's Ark. Universal Pictures bought the rights to the novel, but Spielberg, unsure if he was ready to make a film about the Holocaust, tried to pass the project to several directors before deciding to direct it.",
     },
     {
@@ -198,7 +197,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "Raging Bull",
       image:
-        "https://upload.wikimedia.org/wikipedia/en/5/5f/Raging_Bull_poster.jpg",
+        "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Raging Bull is a 1980 biographical sports drama film directed by Martin Scorsese123. The film chronicles the life of Jake LaMotta, a middleweight boxing champion known as The Raging Bull and The Bronx Bull 1. The film follows two decades of his life, and how the violence inside the ring was only an extension of his violence and temper outside of it1. The film is shot in black and white, except for the home video footage2.",
     },
     {
@@ -206,7 +205,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "Casablanca",
       image:
-        "https://th.bing.com/th?id=OIP.ANvFJpYlEHWLxYV13hcYMgHaKG&w=124&h=170&rs=1&qlt=80&o=6&dpr=1.3&pid=3.1",
+        "https://images.unsplash.com/photo-1515095984775-726a54913d0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Casablanca is a 1942 American film drama123that is based on a true story4. The film is set in Casablanca, Morocco during World War II15423, where refugees are looking for a way out of Europe5. The film follows Rick Blaine, a cynical expatriate American cafe owner, who has to choose between helping his former lover and her fugitive husband escape the Nazis or staying neutral15423. The film is one of the most celebrated and iconic motion pictures in history1.",
     },
     {
@@ -215,14 +214,14 @@ function StoredData(props) {
       name: "Citizen Kane",
       text: "Citizen Kane is a 1941 American drama film directed by, produced by, and starring Orson Welles. He and Herman J. Mankiewicz wrote the screenplay. The picture was Welles' first feature film. Citizen Kane is frequently cited as the greatest film ever made.[5] For 50 consecutive years, it stood at number 1 in the British Film Institute's Sight & Sound decennial poll of critics, and it topped the American Film Institute's 100 Years ... 100 Movies list in 1998, as well as its 2007 update. The film was nominated for Academy Awards in nine categories and it won for Best Writing (Original Screenplay) by Mankiewicz and Welles. Citizen Kane is praised for Gregg Toland's cinematography, Robert Wise's editing, Bernard Herrmann's music, and its narrative structure, all of which have been considered innovative and precedent-setting.",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/330px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg",
+        "https://images.unsplash.com/photo-1508326289668-bc6e6c8e89ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
     },
     {
       id: 27,
       category: "Hollywood",
       name: "THE EQUALIZER 3",
       image:
-        "https://resizing.flixster.com/p-flbPaGEDrd6g8gSlp8wqOmDsg=/fit-in/180x240/v2/https://resizing.flixster.com/EjtgVtXHncPgHWXQxmtU__iEUoA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2VlMDlkZDU4LTE3ZDctNGNmMy1iZmFkLWJiMzY5MmE1Zjg3ZC5qcGc=",
+        "https://images.unsplash.com/photo-1516307365426-bea591f05011?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Actress Dakota Fanning was born Hannah Dakota Fanning in Conyers, Georgia. Her father was a former minor league baseball player and her mother a former tennis professional. Fanning began her acting career in small local productions at the Towne Lake Arts Center in Woodstock, Georgia, a town near where she lived with her family. Her first professional",
     },
     {
@@ -230,7 +229,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "Rebel Without a Cause",
       image:
-        "https://m.media-amazon.com/images/M/MV5BYzk2ZDU3MmMtMDBmMi00YWIyLTkxM2YtZjg3MzgyOTAzZjg0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "https://images.unsplash.com/photo-1590123047191-898a69afb209?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Rebel Without a Cause is a 1955 American coming-of-age romantic drama film about emotionally confused suburban, middle-class teenagers12345. It was directed by Nicholas Ray and filmed in the then recently introduced CinemaScope format1. The movie tells the story of an affluent family and their troubled son, Jim, who makes friends at the local high school with equally troubled teenagers, Judy and Plato3. The movie featured James Dean in one of his final roles; he died one month before the release245.",
     },
     {
@@ -238,7 +237,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "The Third Man",
       image:
-        "https://www.bing.com/th?id=OIP.9SBAtI5riUSU4ansxZyrGAHaLH&w=120&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+        "https://images.unsplash.com/photo-1563208723-b1d4ef49af86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Paramount Pictures obtained the rights to the novel for $80,000, before it gained popularity.[3][4] Studio executives had trouble finding a director; the first few candidates turned down the position before Coppola signed on to direct the film but disagreement followed over casting several characters, in particular, Vito (Marlon Brando) and Michael (Al Pacino). Filming took place primarily on location around New York City and in Sicily, and was completed ahead of schedule. The musical score was composed principally by Nino Rota, with additional pieces by Carmine Coppola.",
     },
     {
@@ -246,7 +245,7 @@ function StoredData(props) {
       category: "Hollywood",
       name: "The god Father",
       image:
-        "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+        "https://images.unsplash.com/photo-1592884497623-ec496f48de8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGFjdG9yc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
       text: "Paramount Pictures obtained the rights to the novel for $80,000, before it gained popularity.[3][4] Studio executives had trouble finding a director; the first few candidates turned down the position before Coppola signed on to direct the film but disagreement followed over casting several characters, in particular, Vito (Marlon Brando) and Michael (Al Pacino). Filming took place primarily on location around New York City and in Sicily, and was completed ahead of schedule. The musical score was composed principally by Nino Rota, with additional pieces by Carmine Coppola.",
     },
 

@@ -9,7 +9,7 @@
 
 :root {
   --blackText: rgb(35, 35, 35);
-  --grayText: gray;
+  --grayText: rgb(99, 99, 99);
   --headingFont: "Ysabeau Infant", sans-serif;
 }
 
@@ -44,25 +44,26 @@ a p{
   justify-content: space-evenly;
   align-items: center;
   padding: 1vw;
-  border-bottom: 2px solid var(--grayText);
   font-size: 2vw;
   letter-spacing: 0.2vw;
   position: sticky;
   top: 0px;
   z-index: 1;
-  background-color: white;
+  background-color: cadetblue;
 }
 
 .navbar a {
   color: var(--blackText);
   transition: all 0.3s linear;
-  font-family: 'Pacifico', cursive;
+  color: white;
 }
 
 .navbar a:focus {
-  text-shadow: 1px 1px 4px rgba(255, 0, 0, 0.786);
-  color: red;
-  font-weight: bolder;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.085);
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 0.5vw;
 }
 
 .bollywoodContainer {
@@ -82,6 +83,10 @@ a p{
 
 .bollywoodHeading {
   font-size: 3vw;
+  color: cadetblue;
+  border-bottom: 0.5vw solid cadetblue;
+  margin: 0vw 2vw 0vw 0vw;
+  padding: 1vw 0vw;
 }
 
 .cardContainer {
@@ -95,7 +100,7 @@ a p{
 }
 
 .cardContainer:hover {
-  box-shadow: 0.2vw 0.2vw 1.5vw gray;
+  box-shadow: 0.2vw 0.2vw 1.5vw cadetblue;
   border-bottom: 0.2vw solid red;
 }
 
@@ -110,9 +115,9 @@ a p{
 }
 
 .cardImage {
-  width: 22vw;
+  width: 18vw;
   height: 11vw;
-  /* transition: all 5s cubic-bezier(0.23, 1, 0.32, 0.1); */
+  transition: all 5s linear;
 }
 
 .cardContent {
@@ -122,11 +127,20 @@ a p{
 
 .cardContent h2 {
   font-family: var(--headingFont);
+  color: cadetblue;
+  margin: 0.3vw 0vw;
 }
 
 .leftContent{
   text-align: justify;
   margin: 0px;
+}
+
+.topPostHeading{
+  font-size: 5vw;
+  margin: 1vw auto;
+  text-align: left;
+  color: var(--blackText);
 }
 
 .rightCardOne{
@@ -141,6 +155,8 @@ a p{
 
 .rightCardOneHeading {
   font-family: var(--headingFont);
+  color: cadetblue;
+  margin: 1vw 0vw 0vw 0vw;
 }
 
 .rightContent{
@@ -181,6 +197,7 @@ a p{
 
 .rightCardTwoName{
   padding: 0vw 0.5vw;
+  color: var(--grayText);
 }
 
 .rightCardTwoNumber{
@@ -201,30 +218,104 @@ a p{
 
 .dynamicLeft{
   width: 30vw;
+  position: sticky;
+  top: 20vw;
+  font-size: 1.9vw;
 }
 
 .likeContainer{
   display: flex;
-  /* justify-content: space-around; */
-  /* align-items: baseline; */
+}
+
+.likeContainer h3{
+  width: 20vw;
 }
 
 .likeImage{
-  width: 5vw;
+  width: 3vw;
+  margin: 0px 1vw;
+  object-fit: scale-down;
 }
 
 .shareContainer{
   display: flex;
+  margin: 5vw auto;
 }
 
 .shareImage{
-  width: 5vw;
+  width: 4vw;
+  margin: 0px 1vw;
+  object-fit: scale-down;
+}
+
+.dynamicContainer{
+  /* border: 2px solid red; */
+  margin: 2vw auto;
 }
 
 .dynamicRight{
-  width: 40vw;
+  width: 60vw;
+}
+
+.aboutContainer{
+  border-bottom: 1vw solid lightgray;
+  margin: 1vw auto;
+  display: flex;
+  align-items: center;
+  padding: 1vw 0vw;
+}
+
+.avatarImgContainer{
+  width: 12vw;
+  clip-path: circle();
+  object-fit: cover;
+}
+
+.avatarImg{
+  width: 100%;
+  background-position: center;
+}
+
+.aboutHeading{
+  font-size: 2vw;
+  margin: 0px;
+  color: var(--grayText);
+}
+
+.aboutPara{
+  font-size: 1.5vw;
+  margin: 0px;
+  color: var(--grayText);
+}
+
+.gitIcon{
+  width: 3vw;
+  margin: 0vw 10vw;
+}
+
+.dynamicHeading{
+  font-size: 3vw;
+  color: cadetblue;
+}
+
+.dynamicImage{
+  width: 100%;
+}
+
+.dynamicPara{
+  font-size: 2vw;
+}
+
+.backButton{
+  width: 100%;
+  font-size: 3vw;
+  color: white;
+  background-color: cadetblue;
+  border: 0.2vw solid transparent;
+  padding: 1vw 0vw;
+  font-family: var(--headingFont);
 }
 
 *{
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
 }

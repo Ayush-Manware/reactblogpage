@@ -11,6 +11,7 @@
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 2;
   }
 
   .logoImage {
@@ -83,8 +84,11 @@
   }
 
   .topPostHeading {
-    font-size: 10vw;
-    margin: 3vw 0vw;
+    font-size: 11vw;
+    margin: 0vw 0vw 5vw 0vw;
+    border-bottom: 2vw solid cadetblue;
+    padding: 2vw 0vw;
+    color: cadetblue;
   }
 
   .rightOne {
@@ -98,6 +102,7 @@
 
   .rightContent {
     padding: 0px 1vw;
+    margin: 1vw 0vw 3vw 0vw;
   }
 
   .rightCardNumber {
@@ -105,21 +110,63 @@
   }
 
   .rightcardTwiImg {
-    width: 45vw;
-    height: 50vw;
+    width: 100%;
+    height: auto;
+  }
+
+  .rightCardTwo{
+    display: block;
+    margin: 4vw auto;
   }
 
   .rightCardTwoName {
-    width: 65%;
+    width: 100%;
+    padding: 1vw 0vw; 
+    margin: 1vw auto;
   }
 
   .rightCardTwoNumber {
     display: none;
   }
 
-  * {
-    /* border: 1px solid greenyellow; */
+  .dynamicLeft{
+    display: none;
   }
+
+.dynamicRight{
+    width: 100%;
+  }
+
+.dynamicHeading  {
+    font-size: 7vw;
+    margin: 1vw 0vw 2vw auto;
+}
+
+.dynamicPara {
+  font-size: 3.5vw;
+}
+
+.backButton{
+  font-size: 6vw;
+  padding: 2vw;
+}
+
+.avatarImgContainer{
+  width: 22vw;
+}
+
+.aboutHeading{
+  font-size: 5vw;
+}
+
+.aboutPara{
+  font-size: 3vw;
+}
+
+.gitIcon {
+  width: 6vw;
+}
+
 }
 
 /*(tablets)*/

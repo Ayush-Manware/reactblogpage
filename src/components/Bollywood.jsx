@@ -3,7 +3,7 @@ import Store from "../store/Store";
 import { Link } from "react-router-dom";
 
 const Bollywood = () => {
-  // const [Number,setNumber] = useState(1)
+ 
   const [bollywoodData] = useContext(Store);
 
   const cate = "Bollywood";
@@ -17,14 +17,14 @@ const Bollywood = () => {
           <h2 className="bollywoodHeading">Bollywood</h2>
           {filtered.map((item, index) => (
             <>
-              <Link to={`/info/${item.id}`}>
+              <Link to={`/info/${item.id}`} key={index}>
                 <div className="cardContainer">
                   <div className="cardImageContainer">
                     <img className="cardImage" src={item.image} alt="Error" />
                   </div>
                   <div className="cardContent">
                     <h2>{item.name}</h2>
-                    <p className="leftContent">{item.text.slice(0, 95)}...</p>
+                    <p className="leftContent">{item.text.slice(0, 135)}...</p>
                   </div>
                 </div>
               </Link>
@@ -38,8 +38,8 @@ const Bollywood = () => {
             .filter((item) => item.id == 6)
             .map((item, index) => (
               <>
-                <Link className="rightLink" to={`/info/${item.id}`}>
-                  <div className="rightCardOne">
+                <Link className="rightLink" to={`/info/${item.id}`} key={index}>
+                  <div className="rightCardOne" >
                     <img
                       src={item.image}
                       className="rightCardOneImg"
@@ -63,11 +63,10 @@ const Bollywood = () => {
             .filter((item) => item.id >= 7 && item.id <= 10)
             .map((item, index) => (
               <>
-                <Link className="rightLink" to={`/info/${item.id}`}>
+                <Link className="rightLink" to={`/info/${item.id}`} key={index}>
                   <div className="rightCardTwo">
                     <img src={item.image} alt="" className="rightcardTwiImg" />
                     <h4 className="rightCardTwoName">{item.text.slice(0,115)}...</h4>
-                    {/* <p className="rightCardTwoNumber">{setNumber(Number + 1)}</p> */}
                     <p className="rightCardTwoNumber">2</p>
                   </div>
                 </Link>
