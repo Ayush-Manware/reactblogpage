@@ -10,6 +10,8 @@ import { StoredData } from "../store/Store";
 import Dynamic from "./Dynamic";
 
 const Navbar = () => {
+
+  
   return (
     <>
       <BrowserRouter>

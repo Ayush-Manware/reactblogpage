@@ -18,15 +18,15 @@ const Dynamic = () => {
         .map((item, index) => {
           return (
             <>
-              <div className="dynamicContainer" key={index}>
+              <div className="dynamicContainerTop" key={index}>
                 <div className="dynamicLeft">
                   <div className="likeContainer">
                     <img src={like} className="likeImage" alt="Err-/" />
-                    <h3>Like Article</h3>
+                    <p>Like Article</p>
                   </div>
                   <div className="shareContainer">
                     <img src={share} className="shareImage" alt="Err-/" />
-                    <h3>Share this article</h3>
+                    <p>Share this article</p>
                   </div>
                 </div>
                 <div className="dynamicRight">
@@ -49,6 +49,27 @@ const Dynamic = () => {
                     Go Back
                   </button>
                 </div>
+              </div>
+              <div className="dynamicBottom">
+                <p className="more">More From The Siren Blogs</p>
+                {dataFromStore
+                  .filter((data) =>  data.category === data.id)
+                  .map((item, index) => {
+                    return (
+                      <>
+                        <div className="bottomCardContainer">
+                          <div className="bottomCard">
+                            <img
+                              src={item.image}
+                              alt="Err-/"
+                              className="bottomCardImg"
+                            />
+                            <h2 className="bottomCardTitle">{item.name}</h2>
+                          </div>
+                        </div>
+                      </>
+                    );
+                  })}
               </div>
             </>
           );

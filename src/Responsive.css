@@ -24,6 +24,10 @@
     display: block;
     width: 10vw;
   }
+
+  .menuIcon:hover .navbar{
+    display: block;
+  }
   
   .navbar {
     padding: 1vw;

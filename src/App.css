@@ -105,7 +105,7 @@ a p{
 }
 
 .cardImageContainer {
-  width: 50vw;
+  width: 41vw;
   height: 100%;
   overflow: hidden;
 }
@@ -211,16 +211,17 @@ a p{
   border: 1px solid gray;
 }
 
-.dynamicContainer{
+.dynamicContainerTop{
   display: flex;
   align-items: center;
+  margin: 2vw auto;
 }
 
 .dynamicLeft{
   width: 30vw;
   position: sticky;
   top: 20vw;
-  font-size: 1.9vw;
+  font-size: 1.5vw;
 }
 
 .likeContainer{
@@ -246,11 +247,6 @@ a p{
   width: 4vw;
   margin: 0px 1vw;
   object-fit: scale-down;
-}
-
-.dynamicContainer{
-  /* border: 2px solid red; */
-  margin: 2vw auto;
 }
 
 .dynamicRight{
