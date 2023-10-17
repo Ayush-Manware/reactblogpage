@@ -8,9 +8,11 @@ import gitIcon from "./code.png";
 
 const Dynamic = () => {
   const id = useParams().id;
+  const category = useParams().category;
   const [dataFromStore] = useContext(Store);
   const navigation = useNavigate();
 
+  console.log(category);
   return (
     <>
       {dataFromStore
