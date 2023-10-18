@@ -32,7 +32,7 @@ const Bollywood = () => {
         <div className="right">
           <h2 className="topPostHeading">Top Post</h2>
           {filtered
-            .filter((item) => item.id == 6)
+            .filter((item) => item.id === 6)
             .map((item, index) => (
               <Link className="rightLink" to={`/info/${item.id}`} key={index}>
                 <div className="rightCardOne">
