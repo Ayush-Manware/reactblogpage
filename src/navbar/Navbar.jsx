@@ -11,7 +11,6 @@ import Dynamic from "./Dynamic";
 
 const Navbar = () => {
 
-  
   return (
     <>
       <BrowserRouter>

@@ -19,8 +19,8 @@ const Dynamic = () => {
         .filter((data) => data.id === parseInt(id))
         .map((item, index) => {
           return (
-            <>
-              <div className="dynamicContainerTop" key={index}>
+            <div className="dynammic" key={index}>
+              <div className="dynamicContainerTop" >
                 <div className="dynamicLeft">
                   <div className="likeContainer">
                     <img src={like} className="likeImage" alt="Err-/" />
@@ -73,7 +73,7 @@ const Dynamic = () => {
                     );
                   })}
               </div>
-            </>
+            </div>
           );
         })}
     </>

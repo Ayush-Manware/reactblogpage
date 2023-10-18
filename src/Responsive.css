@@ -1,8 +1,5 @@
 /*(Mobile)*/
 @media (max-width: 767px) {
-  body {
-    /* background-color: rgb(176, 153, 77); */
-  }
 
   .logoContainer{
     display: flex;

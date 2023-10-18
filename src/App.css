@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap");
 
-* {
-  /* border: 1px solid greenyellow; */
-  /* font-family: 'Merriweather', serif; */
-  /* font-family: 'Montserrat', sans-serif; thin */
-  /* font-family: 'Pacifico', cursive; cursive */
-}
-
 :root {
   --blackText: rgb(35, 35, 35);
   --grayText: rgb(99, 99, 99);
@@ -59,11 +52,8 @@ a p{
 }
 
 .navbar a:focus {
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.085);
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: red;
-  text-decoration-thickness: 0.5vw;
+  text-shadow: 1px 1px 4px red;
+  color: red;
 }
 
 .bollywoodContainer {
@@ -141,6 +131,11 @@ a p{
   margin: 1vw auto;
   text-align: left;
   color: var(--blackText);
+}
+
+.topPostHeading::first-letter{
+  font-size: 7vw;
+  color: red;
 }
 
 .rightCardOne{
