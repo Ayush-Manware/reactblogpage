@@ -22,9 +22,9 @@
     width: 10vw;
   }
 
-  .menuIcon:hover .navbar{
+  /* .menuIcon:hover .navbar{
     display: block;
-  }
+  } */
   
   .navbar {
     padding: 1vw;
@@ -39,6 +39,21 @@
     background-color: gainsboro;
     /* display: block; */
     display: none;
+  }
+
+  .resNavbar{
+    padding: 1vw;
+    border-bottom: none;
+    font-size: 10vw;
+    width: 100%;
+    letter-spacing: 0.2vw;
+    position: fixed;
+    left: 0vw;
+    top: 25vw;
+    text-align: center;
+    background-color: gainsboro;
+    display: block;
+    /* display: none; */
   }
 
   .bollywoodHeading {
@@ -89,6 +104,11 @@
     margin: 0vw 0vw 5vw 0vw;
     border-bottom: 2vw solid cadetblue;
     padding: 2vw 0vw;
+    color: cadetblue;
+  }
+
+  .topPostHeading::first-letter{
+    font-size: 15vw;
     color: cadetblue;
   }
 

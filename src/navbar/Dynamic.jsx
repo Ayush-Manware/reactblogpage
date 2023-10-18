@@ -37,7 +37,7 @@ const Dynamic = () => {
                       <h2 className="aboutHeading">Ayush Manware</h2>
                       <p className="aboutPara">MERN Stack Developer</p>
                     </div>
-                    <a href="https://github.com/Ayush-Manware" target="_blank">
+                    <a href="https://github.com/Ayush-Manware">
                       <img src={gitIcon} alt="" className="gitIcon" />
                     </a>
                   </div>
