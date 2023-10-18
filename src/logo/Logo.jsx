@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import logoImage from "./two.png";
 import menu from "./menu_5259008.png";
-// import RealNav from "../navbar/RealNav";
 
 const Logo = () => {
   const [open, setOpen] = useState(false);
