@@ -1,27 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RealNav = () => {
+const RealNav = (props) => {
+
   return (
     <>
       <div className="resNavbar">
         <div className="home">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"} onClick={()=> props.open(false)}>Home</Link>
         </div>
         <div className="bollywood">
-          <Link to={"/bollywood"}>Bollywood</Link>
+          <Link to={"/bollywood"} onClick={()=> props.open(false)}>Bollywood</Link>
         </div>
         <div className="technology">
-          <Link to={"/technology"}>Technology</Link>
+          <Link to={"/technology"} onClick={()=> props.open(false)}>Technology</Link>
         </div>
         <div className="hollywood">
-          <Link to={"/hollywood"}>Hollywood</Link>
+          <Link to={"/hollywood"} onClick={()=> props.open(false)}>Hollywood</Link>
         </div>
         <div className="fitness">
-          <Link to={"/fitness"}>Fitness</Link>
+          <Link to={"/fitness"} onClick={()=> props.open(false)}>Fitness</Link>
         </div>
         <div className="food">
-          <Link to={"/food"}>Food</Link>
+          <Link to={"/food"} onClick={()=> props.open(false)}>Food</Link>
         </div>
       </div>
     </>

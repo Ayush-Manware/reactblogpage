@@ -40,18 +40,21 @@
     right: 0vw;
     top: 22vw;
     text-align: center;
-    background-color: darkseagreen;
+    backdrop-filter: blur(10px);
     display: block;
-    padding: 0px 1vw;
+    background-color: rgb(143, 188, 143);
   }
 
   .resNavbar div{
     border-bottom: 1px solid white;  
-    margin: 5vw auto;
+    width: fit-content;
+    padding: 2vw 0vw;
+    margin: 0vw auto;
   }
 
   .resNavbar a{
     color: white;
+    font-size: 7vw;
   }
 
   .bollywoodHeading {

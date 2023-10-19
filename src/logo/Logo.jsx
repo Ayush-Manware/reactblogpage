@@ -10,15 +10,11 @@ const Logo = () => {
     setOpen(!open);
   };
 
-  if (open) {
-    console.log("True");
-  }
-
   return (
     <div className="logoContainer">
       <img className="logoImage" src={logoImage} alt="Logo" />
       <img className="menuIcon" onClick={handleMenu} src={menu} alt="Err" />
-      {open ? <RealNav /> : null}
+      {open ? <RealNav open ={setOpen} function={handleMenu} /> : null}
     </div>
   );
 };
