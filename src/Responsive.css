@@ -27,17 +27,6 @@
   } */
   
   .navbar {
-    padding: 1vw;
-    border-bottom: none;
-    font-size: 10vw;
-    width: 100%;
-    letter-spacing: 0.2vw;
-    position: fixed;
-    left: 0vw;
-    top: 25vw;
-    text-align: center;
-    background-color: gainsboro;
-    /* display: block; */
     display: none;
   }
 
