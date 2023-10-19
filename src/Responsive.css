@@ -31,18 +31,27 @@
   }
 
   .resNavbar{
-    padding: 1vw;
     border-bottom: none;
     font-size: 10vw;
     width: 100%;
+    height: fit-content;
     letter-spacing: 0.2vw;
     position: fixed;
-    left: 0vw;
-    top: 25vw;
+    right: 0vw;
+    top: 22vw;
     text-align: center;
-    background-color: gainsboro;
+    background-color: darkseagreen;
     display: block;
-    /* display: none; */
+    padding: 0px 1vw;
+  }
+
+  .resNavbar div{
+    border-bottom: 1px solid white;  
+    margin: 5vw auto;
+  }
+
+  .resNavbar a{
+    color: white;
   }
 
   .bollywoodHeading {

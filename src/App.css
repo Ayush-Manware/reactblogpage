@@ -6,7 +6,6 @@
   --headingFont: "Ysabeau Infant", sans-serif;
 }
 
-
 body {
   padding: 0vw 3vw;
 }
@@ -128,14 +127,14 @@ a p{
 }
 
 .topPostHeading{
-  font-size: 5vw;
+  font-size: 2vw;
   margin: 1vw auto;
   text-align: left;
   color: var(--blackText);
 }
 
 .topPostHeading::first-letter{
-  font-size: 7vw;
+  font-size: 3vw;
   color: red;
 }
 
@@ -203,7 +202,7 @@ a p{
 }
 
 .advertisement{
-  height: 30vw;
+  height: 20vw;
   border: 1px solid gray;
 }
 

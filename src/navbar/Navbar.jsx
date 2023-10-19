@@ -12,7 +12,6 @@ import Dynamic from "./Dynamic";
 const Navbar = () => {
   return (
     <>
-      <BrowserRouter>
         <div className="navbar">
           <div className="home">
             <Link to={"/"}>Home</Link>
@@ -44,7 +43,6 @@ const Navbar = () => {
             <Route path="/info/:id" element={<Dynamic />} />
           </Routes>
         </StoredData>
-      </BrowserRouter>
     </>
   );
 };
