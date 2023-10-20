@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Home from "../components/Home";
 import Bollywood from "../components/Bollywood";
 import Technology from "../components/Technology";
