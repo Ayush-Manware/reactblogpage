@@ -263,7 +263,7 @@ function StoredData(props) {
       name: "Dumbbells Set",
       category: "Fitness",
       image:
-        "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://images.unsplash.com/photo-1648657850347-81445c3978ae?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVtYmVsfGVufDB8MHwwfHx8MA%3D%3D",
       text: "The name dumbbell comes from an exercise apparatus that was somewhat common throughout the 1700s, which was supposedly similar to the apparatus used to ring a church bell, but without making any actual noise, hence “dumb”12. The part of the church bell that makes the ringing sound is called the clapper, which is a heavy iron length with a bulbous end3. Since the exercise apparatus didn't make any noise, they were called dumbbells 2.",
     },
     {
@@ -279,7 +279,7 @@ function StoredData(props) {
       name: "Protein",
       category: "Fitness",
       image:
-        "https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvdGVpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvdGVpbnxlbnwwfDB8MHx8fDA%3D",
       text: "Once a protein has its shape, it can bind to other selected molecules in order to carry out its function.4 That function could be signaling, storing, transporting, providing structure, fighting foreign invaders, acting as a catalyst, or another function.",
     },
     {
@@ -369,7 +369,7 @@ function StoredData(props) {
       name: "Burger",
       category: "Food",
       image:
-        "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60g",
+        "https://images.unsplash.com/photo-1551782450-17144efb9c50?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8MHwwfHx8MA%3D%3D",
       text: "The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used or can even refer to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In many English-speaking countries outside the United States, including the United Kingdom.",
     },
     {
@@ -401,7 +401,7 @@ function StoredData(props) {
       name: "Spices",
       category: "Food",
       image:
-        "https://images.unsplash.com/photo-1532336414038-cf19250c5757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENoaWNrZW4lMjBDdXJyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://images.unsplash.com/photo-1596450514735-111a2fe02935?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGluZGlhbiUyMGN1aXNpbmV8ZW58MHwwfDB8fHww",
       text: "Indian cuisine has a large amount of regional variation, with many variations on the basic chicken curry recipe. Indian chicken curry typically starts with whole spices, heated in oil. A sauce is then made with onions, ginger, garlic, and tomatoes, and powdered spices. Bone-in pieces of chicken are then added to the sauce, and simmered until cooked through.[1] In south India, coconut and curry leaves are also common ingredients.[2] Chicken curry is usually garnished with coriander leaves, and served with rice or roti",
     },
     {

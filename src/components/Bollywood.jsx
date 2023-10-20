@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Store from "../store/Store";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 const Bollywood = () => {
   const [bollywoodData] = useContext(Store);
@@ -71,6 +72,7 @@ const Bollywood = () => {
           <div className="advertisement">Advertisement</div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

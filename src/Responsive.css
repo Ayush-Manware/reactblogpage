@@ -20,6 +20,7 @@
   .menuIcon {
     display: block;
     width: 10vw;
+    margin: 0vw 3vw;
   }
 
   /* .menuIcon:hover .navbar{
@@ -189,12 +190,101 @@
   width: 6vw;
 }
 
+.footerIcon {
+  width: 55vw;
+}
+
 }
 
 /*(tablets)*/
 @media (min-width: 768px) {
-  body {
-    /* background-color: cadetblue; */
+
+  .bollywoodContainer{
+    flex-direction: column-reverse;
+  }
+
+  .right{
+    width:80%;
+  }
+
+  .topPostHeading{
+    font-size: 5vw;
+  }
+
+  .topPostHeading::first-letter{
+    font-size:6vw;
+  }
+
+  .rightOne{
+    width: 66vw;
+  }
+
+  .rightCardNumber{
+    font-size: 15vw;
+    font-weight: 400;
+  }
+
+  .rightCardTwoNumber{
+    font-size: 7vw;
+  }
+
+  .rightcardTwiImg{
+    width: 30vw;
+    height: auto;
+  }
+
+  .left{
+    width: 90%;
+  }
+
+  .bollywoodHeading {
+    font-size: 5vw;
+  }
+
+  .cardContainer{
+    width: 90%;
+    margin: 1vw auto;
+  }
+
+  .cardImage{
+    width: 25vw;
+  }
+
+  .cardImageContainer {
+    width: 45vw;
+  }
+
+  .footerIcon {
+    width: 18vw;
+  }
+
+  .navbar a{
+    font-size: 3vw;
+  }
+
+  .logoImage{
+    width: 30vw; 
+  }
+
+  .cardImageContainer{
+    width: 45vw;
+    height: 17vw;
+  }
+
+  .cardImage{
+    height: 100%;
+  }
+
+  .dynammic{
+    background-color: red;
+    width: 80%;
+    border-top: 10px solid red;
+
+  }
+
+  .dynamicContainerTop{
+    padding: 0vw 2vw;
+
   }
 }
 
