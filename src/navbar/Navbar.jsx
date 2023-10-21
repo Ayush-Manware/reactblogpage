@@ -12,6 +12,7 @@ import Dynamic from "./Dynamic";
 const Navbar = () => {
   return (
     <>
+      <StoredData>
         <div className="navbar">
           <div className="home">
             <Link to={"/"}>Home</Link>
@@ -32,17 +33,17 @@ const Navbar = () => {
             <Link to={"/food"}>Food</Link>
           </div>
         </div>
-        <StoredData>
-          <Routes>
-            <Route path={"/"} element={<Home />} />
-            <Route path={"/bollywood"} element={<Bollywood />} />
-            <Route path={"/technology"} element={<Technology />} />
-            <Route path={"/hollywood"} element={<Hollywood />} />
-            <Route path={"/fitness"} element={<Fitness />} />
-            <Route path={"/food"} element={<Food />} />
-            <Route path="/info/:id" element={<Dynamic />} />
-          </Routes>
-        </StoredData>
+
+        <Routes>
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/bollywood"} element={<Bollywood />} />
+          <Route path={"/technology"} element={<Technology />} />
+          <Route path={"/hollywood"} element={<Hollywood />} />
+          <Route path={"/fitness"} element={<Fitness />} />
+          <Route path={"/food"} element={<Food />} />
+          <Route path="/info/:id" element={<Dynamic />} />
+        </Routes>
+      </StoredData>
     </>
   );
 };

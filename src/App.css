@@ -346,3 +346,114 @@ a p{
     color: white;
     letter-spacing: 2px;
   }
+
+  .homeContainer{
+    padding: 0vw 2vw;
+  }
+
+  .homeTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw auto;
+  }
+
+  .topRight{
+    margin: 0vw 0.6vw;
+  }
+
+  .crouselContainer{
+    width: 65vw;
+    height: 40vw;
+    position: relative;
+  }
+
+  .crouselImages{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6vw;
+  }
+
+  .courselButton{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .previousBtn, .nextBtn{
+    display: block;
+    color: white;
+    background-color: transparent;
+    font-size: 3vw;
+    border: none;
+    opacity: 0.7;
+    margin: 0vw 2vw;
+  }
+
+  .img{
+    width: 29.5vw;
+    border-radius: 0.6vw;
+  }
+
+  .techLatestHeading{
+    font-size: 3vw;
+    color: darkseagreen;
+    width: fit-content;
+    border-bottom: 0.5vw solid darkseagreen;
+    font-family: var(--headingFont);
+   }
+
+  .homeTechDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .homeTechCard{
+    border-bottom: 0.2vw solid darkseagreen;
+    width: 30vw; 
+    transition: all 0.2s linear;
+  }
+
+  .homeTechCard:hover{
+    scale: 1.1;
+    z-index: 2;
+    background-color: rgb(143, 188, 143,0.8);
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.334);
+  }
+
+  .homeTechCard:hover .homeTechCardHeading,.homeTexhcardPara{
+    color: white;
+  }
+
+  .hometechCardImg{
+   width: 100%;
+   height: 20vw;
+  }
+
+  .homeTechCardHeading{
+    padding: 0vw 0.5vw;
+    margin: 0.3vw 0vw;
+    color: darkseagreen;
+    font-family: var(--headingFont);
+    font-weight: bolder;
+    font-size: 2.3vw;
+  }
+
+  .homeTexhcardPara{
+    padding: 0vw 0.5vw;
+    text-align: justify;
+    color: var(--blackText);
+  }
+
+  .homeTechCard:hover .homeTexhcardPara{
+    color: white;
+  }
+
+
+  *{
+    /* border: 1px solid red; */
+  }
