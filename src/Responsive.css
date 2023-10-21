@@ -202,7 +202,16 @@
   font-size: 2vw;
 }
 
+.dynammic{
+  padding: 3vw;
 }
+
+.dynamicPara{
+  text-align: justify;
+}
+
+}
+
 
 /*(tablets)*/
 @media (min-width: 768px) {
@@ -283,8 +292,56 @@
     height: 100%;
   }
 
-  .row p{
-    color: red;
+  .dynamicLeft{
+    display: none;
+  }
+
+  .dynamicContainerTop{
+    justify-content: center;
+    width: 90%;
+  }
+
+  .dynamicRight{
+    width: 100%;
+  }
+
+  .avatarImgContainer{
+    width: 18vw;
+  }
+
+  .aboutHeading{
+    font-size: 4vw;
+  } 
+
+  .aboutPara{
+    font-size: 2.5vw;
+  } 
+
+  .gitIcon {
+    width: 6vw;
+  }
+
+  .dynamicHeading{
+    font-size: 5vw;
+    margin: 1vw 0vw;
+  } 
+
+  .dynamicPara{
+    font-size: 4vw;
+    text-align: justify;
+  }
+
+  .backButton{
+    font-size: 6vw;
+  }
+
+  .more{
+    font-size: 4vw;
+  }
+
+  .dynamicBottom{
+    width: 90%;
+    margin: 2vw auto;
   }
 
 }

@@ -7,7 +7,7 @@ const Footer = () => {
       <img src={FooterIcon} alt="err-/" className="footerIcon" />
       <div className="footer">
         <div className="row">
-          <p className="career" >Career</p>
+          <p>Career</p>
           <p>Contact us</p>
           <p>Our Services</p>
           <p>Privacy Policy</p>
