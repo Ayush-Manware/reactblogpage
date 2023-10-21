@@ -1,18 +1,18 @@
 import React, { useContext } from "react";
 import Footer from "../footer/Footer";
-import Crousel from "./Crousel";
+import Crousel from "./crouselOne/Crousel";
 import Store from "../store/Store";
-import rocket from "./rocket-launch-67643_1280.jpg";
-import sports from "./women-655353_1280.jpg";
+import rocket from "./crouselOne/rocket-launch-67643_1280.jpg";
+import sports from "./crouselOne/women-655353_1280.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const [data] = useContext(Store);
-  const bolly = data.filter((item) => item.category === "Bollywood");
+  // const bolly = data.filter((item) => item.category === "Bollywood");
   const tech = data.filter((item) => item.category === "Technology");
-  const holly = data.filter((item) => item.category === "Hollywood");
+  // const holly = data.filter((item) => item.category === "Hollywood");
   const fit = data.filter((item) => item.category === "Fitness");
-  const food = data.filter((item) => item.category === "Food");
+  // const food = data.filter((item) => item.category === "Food");
 
   return (
     <>
@@ -39,7 +39,6 @@ const Home = () => {
                       alt="err-/"
                       className="hometechCardImg"
                     />
-
                     <h2 className="homeTechCardHeading">{item.name}</h2>
                     <p className="homeTexhcardPara">
                       {item.text.slice(0, 187)}...
@@ -48,7 +47,38 @@ const Home = () => {
                 </Link>
               );
             })}
+        </div>{" "}
+        
+        <div className="homeThirdDiv">
+          <div className="HomeLeft">
+            {fit
+              .filter((item) => item.id > 35 && item.id < 40)
+              .map((item, index) => (
+                <Link to={`/info/${item.id}`} key={index}>
+                  <div className="homeCardContainer">
+                    <div className="homeCardImageContainer">
+                      <img
+                        className="homeCardImage"
+                        src={item.image}
+                        alt="Error"
+                      />
+                    </div>
+                    <div className="cardContent">
+                      <h2>{item.name}</h2>
+                      <p className="leftContent">
+                        {item.text.slice(0, 135)}...
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+          </div>
+
+          <div className="homeRight">
+            <div className="homeAdvertisement"></div>
+          </div>
         </div>
+
       </div>
       <Footer />
     </>
