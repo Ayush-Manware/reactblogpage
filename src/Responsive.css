@@ -210,6 +210,77 @@
   text-align: justify;
 }
 
+.homeTop{
+  flex-direction: column;
+}
+
+.topRight{
+  display: none;
+}
+
+.crousel{
+ width:   100%;
+}
+
+.crouselContainer {
+  width: 100%;
+  height: 40%;
+}
+
+.previousBtn, .nextBtn{
+  font-size: 8vw;
+}
+
+.homeTechCardHeading{
+  font-size: 6vw;
+}
+
+.homeTexhcardPara{
+  margin: 0vw 0vw 3vw;
+}
+
+.homeTechDiv{
+  flex-direction: column;
+}
+
+.homeTechCard{
+  width: 100%;
+}
+
+.hometechCardImg{
+  width: 100%;
+}
+
+.homeThirdDiv{
+  flex-direction: column;
+}
+
+.HomeLeft{
+  width: 100%;
+}
+
+.homeCardContainer{
+  width: 100%;
+  display: block;
+}
+
+.homeCardImageContainer{
+  width: 100%;
+}
+
+.homeCardImage{
+  width: 100%;
+}
+
+.homeRight{
+  width: 100%;
+}
+
+.homeAdvertisement{
+  width: 100%;
+  height: 40vw;
+}
+
 }
 
 
