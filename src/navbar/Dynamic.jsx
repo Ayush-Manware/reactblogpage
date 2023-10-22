@@ -50,8 +50,8 @@ const Dynamic = () => {
                 </div>
               </div>
               <div className="dynamicBottom">
-                <p className="more">More From The Siren Blogs</p>
-                {dataFromStore
+                <p className="more" onClick={()=> navigation('/')}>More From The Siren Blogs</p>
+                {/* {dataFromStore
                   .filter((data) =>  data.category === data.id)
                   .map((item, index) => {
                     return (
@@ -68,7 +68,7 @@ const Dynamic = () => {
                         </div>
                       </>
                     );
-                  })}
+                  })} */}
               </div>
             </div>
           );
