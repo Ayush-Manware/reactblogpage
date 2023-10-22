@@ -9,9 +9,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const [data] = useContext(Store);
-  // const bolly = data.filter((item) => item.category === "Bollywood");
   const tech = data.filter((item) => item.category === "Technology");
-  // const holly = data.filter((item) => item.category === "Hollywood");
   const fit = data.filter((item) => item.category === "Fitness");
   const food = data.filter((item) => item.category === "Food");
 
@@ -23,11 +21,14 @@ const Home = () => {
             <Crousel />
           </div>
           <div className="topRight">
-            <img src={rocket} alt="err-/" className="img" />
-            <img src={sports} alt="err-/" className="img" />
+            <div className="imgOneDiv">
+              <img src={rocket} alt="err-/" className="img" />
+            </div>
+            <div className="imgOneDiv">
+              <img src={sports} alt="err-/" className="img" />
+            </div>
           </div>
         </div>
-        {/* <h2 className="techLatestHeading">See latest on Technology</h2> */}
         <div className="homeTechDiv">
           {tech
             .filter((item) => item.id >= 18 && item.id <= 20)

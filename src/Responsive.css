@@ -7,7 +7,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     z-index: 2;
   }
 
@@ -304,7 +304,7 @@
 
 
 /*(tablets)*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1023px) {
 
   .bollywoodContainer{
     flex-direction: column-reverse;
