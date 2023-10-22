@@ -210,6 +210,8 @@
   text-align: justify;
 }
 
+
+/* HOME */
 .homeTop{
   flex-direction: column;
 }
@@ -245,10 +247,12 @@
 
 .homeTechCard{
   width: 100%;
+  margin: 3vw auto;
 }
 
 .hometechCardImg{
   width: 100%;
+  height: 50%;
 }
 
 .homeThirdDiv{
@@ -262,6 +266,7 @@
 .homeCardContainer{
   width: 100%;
   display: block;
+  margin: 3vw auto;
 }
 
 .homeCardImageContainer{
@@ -279,6 +284,20 @@
 .homeAdvertisement{
   width: 100%;
   height: 40vw;
+}
+
+.homeDivFour{
+  flex-direction: column;
+  background-color: white;
+}
+
+.homeCrouselContainer{
+  width: 100%;
+  height: 70%;
+}
+
+.homePreviousBtn, .homeNextBtn{
+  font-size: 7vw;
 }
 
 }

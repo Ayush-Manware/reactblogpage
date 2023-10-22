@@ -348,6 +348,7 @@ a p {
   letter-spacing: 2px;
 }
 
+/* home */
 .homeContainer {
   padding: 0vw 2vw;
 }
@@ -469,24 +470,32 @@ a p {
 }
 
 .homeCardContainer {
-  /* border: 1px solid red; */
-  border-bottom: 0.3vw solid darkseagreen;
+  /* border: 0.1vw solid darkseagreen; */
+  background-color: lightgoldenrodyellow;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   margin: 1vw 0vw;
   transition: all 0.2s linear;
   width: 45vw;
 }
 
+.homeCardContainer:hover .homeCardImage{
+  scale: 2;
+}
+
 .homeCardImageContainer{
-  width: 41vw;
+  width: 55vw;
   height: auto;
   overflow: hidden;
+  /* border: 1px solid red; */
 }
 
 .homeCardImage{
   width: 100%;
+  height: 100%;
+  transition: all 5s linear;
+  vertical-align: middle;
 }
 
 .homeThirdDiv{
@@ -500,6 +509,61 @@ a p {
   width: 40%;
 }
 
+.homeDivFour{
+  display: flex;
+  column-gap: 1vw;
+  padding: 1vw;
+  row-gap: 0vw;
+  background-color: papayawhip;
+}
+
+.homeDivFourRight{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.homeLeftContent{
+  margin: 0.5vw auto;
+  padding: 0vw 1vw;
+}
+
+/* crouselTwo */
+.homeCrouselContainer {
+  width: 50vw;
+  height: 27vw;
+  position: relative;
+}
+
+.homeCrouselImages {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6vw;
+  transition: all 0.1s linear;
+}
+
+.homeCrouselImages:hover{
+  filter: sepia(100%);
+}
+
+.homeCrouselButtonContainer {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homePreviousBtn,
+.homeNextBtn {
+  display: block;
+  color: white;
+  background-color: transparent;
+  font-size: 3vw;
+  border: none;
+  opacity: 0.7;
+  margin: 0vw 2vw;
+}
 * {
   /* border: 1px solid red; */
 }

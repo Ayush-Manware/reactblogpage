@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Footer from "../footer/Footer";
 import Crousel from "./crouselOne/Crousel";
+import CrouselTwo from "./Crousel2";
 import Store from "../store/Store";
 import rocket from "./crouselOne/rocket-launch-67643_1280.jpg";
 import sports from "./crouselOne/women-655353_1280.jpg";
@@ -12,7 +13,7 @@ const Home = () => {
   const tech = data.filter((item) => item.category === "Technology");
   // const holly = data.filter((item) => item.category === "Hollywood");
   const fit = data.filter((item) => item.category === "Fitness");
-  // const food = data.filter((item) => item.category === "Food");
+  const food = data.filter((item) => item.category === "Food");
 
   return (
     <>
@@ -41,14 +42,13 @@ const Home = () => {
                     />
                     <h2 className="homeTechCardHeading">{item.name}</h2>
                     <p className="homeTexhcardPara">
-                      {item.text.slice(0, 187)}...
+                      {item.text.slice(0, 217)}...
                     </p>
                   </div>
                 </Link>
               );
             })}
         </div>{" "}
-        
         <div className="homeThirdDiv">
           <div className="HomeLeft">
             {fit
@@ -65,8 +65,8 @@ const Home = () => {
                     </div>
                     <div className="cardContent">
                       <h2>{item.name}</h2>
-                      <p className="leftContent">
-                        {item.text.slice(0, 135)}...
+                      <p className="homeLeftContent">
+                        {item.text.slice(0, 165)}...
                       </p>
                     </div>
                   </div>
@@ -75,10 +75,37 @@ const Home = () => {
           </div>
 
           <div className="homeRight">
-            <div className="homeAdvertisement"></div>
+            <div className="homeAdvertisement">advertisement</div>
           </div>
         </div>
-
+        <div className="homeDivFour">
+          <CrouselTwo />
+          <div className="homeDivFourRight">
+            {food
+              .filter((item) => (item.id >= 42) & (item.id <= 43))
+              .map((item, index) => {
+                return (
+                  <Link to={`/info/${item.id}`} key={index}>
+                    <div className="homeCardContainer">
+                      <div className="homeCardImageContainer">
+                        <img
+                          className="homeCardImage"
+                          src={item.image}
+                          alt="Error"
+                        />
+                      </div>
+                      <div className="cardContent">
+                        <h2>{item.name}</h2>
+                        <p className="homeLeftContent">
+                          {item.text.slice(0, 165)}...
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+          </div>
+        </div>
       </div>
       <Footer />
     </>
