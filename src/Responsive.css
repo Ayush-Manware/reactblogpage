@@ -13,7 +13,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 0, 0);
+    background-color: darkseagreen;
     z-index: 2;
   }
 
@@ -279,6 +279,10 @@
   width: 100%;
 }
 
+.homeCardContainer:hover .homeCardImage {
+  scale: 1;
+}
+
 .homeCardImage{
   width: 100%;
 }
@@ -307,7 +311,7 @@
 }
 
 .homeTechCard:hover {
-  scale: 0;
+  scale: 1;
   z-index: 2;
   background-color: white;
   color: var(--grayText);
@@ -316,7 +320,11 @@
 
 .homeTechCard:hover .homeTechCardHeading,
 .homeTexhcardPara {
-  color: darkseagreen;
+  color: var(--grayText);
+}
+
+.homeLeftContent{
+  padding: 0vw 1vw 2VW;
 }
 
 }
