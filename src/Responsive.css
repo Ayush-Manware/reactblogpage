@@ -1,3 +1,9 @@
+:root {
+  --blackText: rgb(35, 35, 35);
+  --grayText: rgb(99, 99, 99);
+  --headingFont: "Ysabeau Infant", sans-serif;
+}
+
 /*(Mobile)*/
 @media (max-width: 767px) {
 
@@ -298,6 +304,19 @@
 
 .homePreviousBtn, .homeNextBtn{
   font-size: 7vw;
+}
+
+.homeTechCard:hover {
+  scale: 0;
+  z-index: 2;
+  background-color: white;
+  color: var(--grayText);
+  box-shadow: 0px;
+}
+
+.homeTechCard:hover .homeTechCardHeading,
+.homeTexhcardPara {
+  color: darkseagreen;
 }
 
 }
