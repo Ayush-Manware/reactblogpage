@@ -6,14 +6,13 @@
 
 /*(Mobile)*/
 @media (max-width: 767px) {
-
-  .logoContainer{
+  .logoContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    background-color: darkseagreen;
+    background-color: white;
     z-index: 2;
   }
 
@@ -32,12 +31,12 @@
   /* .menuIcon:hover .navbar{
     display: block;
   } */
-  
+
   .navbar {
     display: none;
   }
 
-  .resNavbar{
+  .resNavbar {
     border-bottom: none;
     font-size: 10vw;
     width: 100%;
@@ -52,14 +51,14 @@
     background-color: rgb(143, 188, 143);
   }
 
-  .resNavbar div{
-    border-bottom: 1px solid white;  
+  .resNavbar div {
+    border-bottom: 1px solid white;
     width: fit-content;
     padding: 2vw 0vw;
     margin: 0vw auto;
   }
 
-  .resNavbar a{
+  .resNavbar a {
     color: white;
     font-size: 7vw;
   }
@@ -115,7 +114,7 @@
     color: cadetblue;
   }
 
-  .topPostHeading::first-letter{
+  .topPostHeading::first-letter {
     font-size: 15vw;
     color: cadetblue;
   }
@@ -143,14 +142,14 @@
     height: auto;
   }
 
-  .rightCardTwo{
+  .rightCardTwo {
     display: block;
     margin: 4vw auto;
   }
 
   .rightCardTwoName {
     width: 100%;
-    padding: 1vw 0vw; 
+    padding: 1vw 0vw;
     margin: 1vw auto;
   }
 
@@ -158,216 +157,234 @@
     display: none;
   }
 
-  .dynamicLeft{
+  .dynamicLeft {
     display: none;
   }
 
-.dynamicRight{
+  .dynamicRight {
     width: 100%;
   }
 
-.dynamicHeading  {
+  .dynamicHeading {
     font-size: 7vw;
     margin: 1vw 0vw 2vw auto;
-}
-
-.dynamicPara {
-  font-size: 3.5vw;
-}
-
-.backButton{
-  font-size: 6vw;
-  padding: 2vw;
-}
-
-.avatarImgContainer{
-  width: 22vw;
-}
-
-.aboutHeading{
-  font-size: 5vw;
-}
-
-.aboutPara{
-  font-size: 3vw;
-}
-
-.gitIcon {
-  width: 6vw;
-}
-
-.footerIcon {
-  width: 55vw;
-}
-
-.row p{
-  font-size: 2vw;
-}
-
-.footerText{
-  font-size: 2vw;
-}
-
-.dynammic{
-  padding: 3vw;
-}
-
-.dynamicPara{
-  text-align: justify;
-}
-
-
-/* HOME */
-.homeTop{
-  flex-direction: column;
-}
-
-.topRight{
-  display: none;
-}
-
-.crousel{
- width:   100%;
-}
-
-.crouselContainer {
-  width: 100%;
-  height: 40%;
-}
-
-.previousBtn, .nextBtn{
-  font-size: 8vw;
-}
-
-.homeTechCardHeading{
-  font-size: 6vw;
-}
-
-.homeTexhcardPara{
-  margin: 0vw 0vw 3vw;
-}
-
-.homeTechDiv{
-  flex-direction: column;
-}
-
-.homeTechCard{
-  width: 100%;
-  margin: 3vw auto;
-}
-
-.hometechCardImg{
-  width: 100%;
-  height: 50%;
-}
-
-.homeThirdDiv{
-  flex-direction: column;
-}
-
-.HomeLeft{
-  width: 100%;
-}
-
-.homeCardContainer{
-  width: 100%;
-  display: block;
-  margin: 3vw auto;
-}
-
-.homeCardImageContainer{
-  width: 100%;
-}
-
-.homeCardContainer:hover .homeCardImage {
-  scale: 1;
-}
-
-.homeCardImage{
-  width: 100%;
-}
-
-.homeRight{
-  width: 100%;
-}
-
-.homeAdvertisement{
-  width: 100%;
-  height: 40vw;
-}
-
-.homeDivFour{
-  flex-direction: column;
-  background-color: white;
-}
-
-.homeCrouselContainer{
-  width: 100%;
-  height: 70%;
-}
-
-.homePreviousBtn, .homeNextBtn{
-  font-size: 7vw;
-}
-
-.homeTechCard:hover {
-  scale: 1;
-  z-index: 2;
-  background-color: white;
-  color: var(--grayText);
-  box-shadow: 0px;
-}
-
-.homeTechCard:hover .homeTechCardHeading,
-.homeTexhcardPara {
-  color: var(--grayText);
-}
-
-.homeLeftContent{
-  padding: 0vw 1vw 2VW;
-}
-
-}
-
-
-/*(tablets)*/
-@media (min-width: 768px) and (max-width:1023px) {
-
-  .bollywoodContainer{
-    flex-direction: column-reverse;
   }
 
-  .right{
-    width:80%;
+  .dynamicPara {
+    font-size: 3.5vw;
   }
 
-  .topPostHeading{
+  .backButton {
+    font-size: 6vw;
+    padding: 2vw;
+  }
+
+  .avatarImgContainer {
+    width: 22vw;
+  }
+
+  .aboutHeading {
     font-size: 5vw;
   }
 
-  .topPostHeading::first-letter{
-    font-size:6vw;
+  .aboutPara {
+    font-size: 3vw;
   }
 
-  .rightOne{
+  .gitIcon {
+    width: 6vw;
+  }
+
+  .footerIcon {
+    width: 55vw;
+  }
+
+  .row p {
+    font-size: 2vw;
+  }
+
+  .footerText {
+    font-size: 2vw;
+  }
+
+  .dynammic {
+    padding: 3vw;
+  }
+
+  .dynamicPara {
+    text-align: justify;
+  }
+
+  /* HOME */
+  .homeTop {
+    flex-direction: column;
+  }
+
+  .topRight {
+    display: none;
+  }
+
+  .crousel {
+    width: 100%;
+  }
+
+  .crouselContainer {
+    width: 100%;
+    height: 40%;
+  }
+
+  .previousBtn,
+  .nextBtn {
+    font-size: 8vw;
+  }
+
+  .homeTechCardHeading {
+    font-size: 6vw;
+  }
+
+  .homeTexhcardPara {
+    margin: 0vw 0vw 3vw;
+  }
+
+  .homeTechDiv {
+    flex-direction: column;
+  }
+
+  .homeTechCard {
+    width: 100%;
+    margin: 3vw auto;
+  }
+
+  .hometechCardImg {
+    width: 100%;
+    height: 50%;
+  }
+
+  .homeThirdDiv {
+    flex-direction: column;
+  }
+
+  .HomeLeft {
+    width: 100%;
+  }
+
+  .homeCardContainer {
+    width: 100%;
+    display: block;
+    margin: 3vw auto;
+  }
+
+  .homeCardImageContainer {
+    width: 100%;
+  }
+
+  .homeCardContainer:hover .homeCardImage {
+    scale: 1;
+  }
+
+  .homeCardImage {
+    width: 100%;
+  }
+
+  .homeRight {
+    width: 100%;
+  }
+
+  .homeAdvertisement {
+    width: 100%;
+    height: 40vw;
+  }
+
+  .homeDivFour {
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .homeCrouselContainer {
+    width: 100%;
+    height: 70%;
+  }
+
+  .homePreviousBtn,
+  .homeNextBtn {
+    font-size: 7vw;
+  }
+
+  .homeTechCard:hover {
+    scale: 1;
+    background-color: white;
+    color: var(--grayText);
+    box-shadow: 0px;
+  }
+
+  .homeTechCard:hover .homeTexhcardPara {
+    color: var(--blackText);
+  }
+
+  .homeTechCard:hover .homeTechCardHeading {
+    color: darkseagreen;
+  }
+
+  .homeLeftContent {
+    padding: 0vw 1vw 2vw;
+  }
+
+  .more {
+    text-decoration: underline;
+    color: darkseagreen;
+    text-align: center;
+  }
+
+  .row p {
+    font-size: 3vw;
+  }
+
+  .footerText{
+    font-size: 4vw;
+  }
+
+  .icons i {
+    font-size: 6vw;
+  }
+}
+
+/*(tablets)*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .bollywoodContainer {
+    flex-direction: column-reverse;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  .topPostHeading {
+    font-size: 5vw;
+  }
+
+  .topPostHeading::first-letter {
+    font-size: 6vw;
+  }
+
+  .rightOne {
     width: 66vw;
   }
 
-  .rightCardNumber{
+  .rightCardNumber {
     font-size: 15vw;
     font-weight: 400;
   }
 
-  .rightCardTwoNumber{
+  .rightCardTwoNumber {
     font-size: 7vw;
   }
 
-  .rightcardTwiImg{
+  .rightcardTwiImg {
     width: 30vw;
     height: auto;
   }
 
-  .left{
+  .left {
     width: 90%;
   }
 
@@ -375,12 +392,12 @@
     font-size: 5vw;
   }
 
-  .cardContainer{
+  .cardContainer {
     width: 90%;
     margin: 1vw auto;
   }
 
-  .cardImage{
+  .cardImage {
     width: 25vw;
   }
 
@@ -392,110 +409,109 @@
     width: 18vw;
   }
 
-  .navbar a{
+  .navbar a {
     font-size: 3vw;
   }
 
-  .logoImage{
-    width: 30vw; 
+  .logoImage {
+    width: 30vw;
   }
 
-  .cardImageContainer{
+  .cardImageContainer {
     width: 45vw;
     height: 17vw;
   }
 
-  .cardImage{
+  .cardImage {
     height: 100%;
   }
 
-  .dynamicLeft{
+  .dynamicLeft {
     display: none;
   }
 
-  .dynamicContainerTop{
+  .dynamicContainerTop {
     justify-content: center;
     width: 90%;
   }
 
-  .dynamicRight{
+  .dynamicRight {
     width: 100%;
   }
 
-  .avatarImgContainer{
+  .avatarImgContainer {
     width: 18vw;
   }
 
-  .aboutHeading{
+  .aboutHeading {
     font-size: 4vw;
-  } 
+  }
 
-  .aboutPara{
+  .aboutPara {
     font-size: 2.5vw;
-  } 
+  }
 
   .gitIcon {
     width: 6vw;
   }
 
-  .dynamicHeading{
+  .dynamicHeading {
     font-size: 5vw;
     margin: 1vw 0vw;
-  } 
+  }
 
-  .dynamicPara{
+  .dynamicPara {
     font-size: 4vw;
     text-align: justify;
   }
 
-  .backButton{
+  .backButton {
     font-size: 6vw;
   }
 
-  .more{
+  .more {
     font-size: 4vw;
   }
 
-  .dynamicBottom{
+  .dynamicBottom {
     width: 90%;
     margin: 2vw auto;
   }
 
-  .homeThirdDiv{
+  .homeThirdDiv {
     flex-direction: column;
   }
 
-  .HomeLeft{
+  .HomeLeft {
     width: 100%;
   }
 
-  .homeCardContainer{
+  .homeCardContainer {
     margin: 1vw auto;
     width: 90%;
     padding: 2vw;
   }
 
-  .homeRight{
+  .homeRight {
     width: 100%;
   }
 
-  .homeAdvertisement{
+  .homeAdvertisement {
     width: 100%;
     height: 10vw;
   }
 
-  .homeDivFour{
+  .homeDivFour {
     flex-direction: column;
   }
 
-  .homeCrouselContainer{
+  .homeCrouselContainer {
     width: 100%;
     margin: auto;
     height: 50vw;
   }
 
-  *{
+  * {
     /* border: 1px solid red; */
   }
-
 }
