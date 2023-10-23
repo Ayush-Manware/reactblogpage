@@ -119,6 +119,10 @@
     color: cadetblue;
   }
 
+  .homeCardContainer:hover .homeCardImage {
+    scale: 1;
+  }
+
   .rightOne {
     width: 100%;
   }
