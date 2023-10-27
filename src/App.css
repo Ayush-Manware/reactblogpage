@@ -493,7 +493,7 @@ a p {
 }
 
 .homeCardImageContainer {
-  width: 55vw;
+  width: 80vw;
   height: auto;
   overflow: hidden;
   /* border: 1px solid red; */
@@ -533,7 +533,7 @@ a p {
 
 .homeLeftContent {
   margin: 0.5vw auto;
-  padding: 0vw 1vw;
+  font-size: 1.4vw;
 }
 
 /* crouselTwo */
