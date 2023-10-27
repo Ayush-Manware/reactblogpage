@@ -23,7 +23,7 @@ const Food = () => {
                 </div>
                 <div className="cardContent">
                   <h2>{item.name}</h2>
-                  <p className="leftContent">{item.text.slice(0, 95)}...</p>
+                  <p className="leftContent">{item.text.slice(0, 195)}...</p>
                 </div>
               </div>
             </Link>
@@ -64,7 +64,6 @@ const Food = () => {
                   <h4 className="rightCardTwoName">
                     {item.text.slice(0, 115)}...
                   </h4>
-                  {/* <p className="rightCardTwoNumber">{setNumber(Number + 1)}</p> */}
                   <p className="rightCardTwoNumber">{index + 2}</p>
                 </div>
               </Link>

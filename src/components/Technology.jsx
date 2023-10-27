@@ -5,12 +5,8 @@ import Footer from "../footer/Footer";
 
 const Technology = () => {
   const [TechnologyData] = useContext(Store);
-
   const cate = "Technology";
-
   const filtered = TechnologyData.filter((item) => item.category === cate);
-
-  
 
   return (
     <>
@@ -20,12 +16,12 @@ const Technology = () => {
           {filtered.map((item, index) => (
             <Link to={`/info/${item.id}`} key={index}>
               <div className="cardContainer">
-                {/* <div className="cardImageContainer"> */}
+                <div className="cardImageContainer">
                   <img className="cardImage" src={item.image} alt="Error" />
-                {/* </div> */}
+                </div>
                 <div className="cardContent">
                   <h2>{item.name}</h2>
-                  <p className="leftContent">{item.text.slice(0, 95)}...</p>
+                  <p className="leftContent">{item.text.slice(0, 195)}...</p>
                 </div>
               </div>
             </Link>

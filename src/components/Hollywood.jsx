@@ -18,12 +18,12 @@ const Hollywood = () => {
           {filtered.map((item, index) => (
             <Link to={`/info/${item.id}`} key={index}>
               <div className="cardContainer">
-                {/* <div className="cardImageContainer"> */}
+                <div className="cardImageContainer">
                   <img className="cardImage" src={item.image} alt="Error" />
-                {/* </div> */}
+                </div>
                 <div className="cardContent">
                   <h2>{item.name}</h2>
-                  <p className="leftContent">{item.text.slice(0, 95)}...</p>
+                  <p className="leftContent">{item.text.slice(0, 195)}...</p>
                 </div>
               </div>
             </Link>
@@ -33,7 +33,7 @@ const Hollywood = () => {
         <div className="right">
           <h2 className="topPostHeading">Top Post</h2>
           {filtered
-            .filter((item) => item.id === 26)
+            .filter((item) => item.id === 30)
             .map((item, index) => (
               <Link className="rightLink" to={`/info/${item.id}`} key={index}>
                 <div className="rightCardOne">

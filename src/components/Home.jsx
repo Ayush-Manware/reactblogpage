@@ -67,7 +67,7 @@ const Home = () => {
                     <div className="cardContent">
                       <h2>{item.name}</h2>
                       <p className="homeLeftContent">
-                        {item.text.slice(0, 165)}...
+                        {item.text.slice(0, 265)}...
                       </p>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Home = () => {
                       <div className="cardContent">
                         <h2>{item.name}</h2>
                         <p className="homeLeftContent">
-                          {item.text.slice(0, 165)}...
+                          {item.text.slice(0, 265)}...
                         </p>
                       </div>
                     </div>

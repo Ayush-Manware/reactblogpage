@@ -84,6 +84,7 @@
 
   .cardImageContainer {
     width: 100%;
+    /* height: 100%; */
   }
 
   .cardImage {
@@ -407,6 +408,7 @@
 
   .cardImageContainer {
     width: 45vw;
+    height: 100%;
   }
 
   .footerIcon {
