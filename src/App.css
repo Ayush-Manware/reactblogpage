@@ -572,6 +572,44 @@ a p {
   opacity: 0.7;
   margin: 0vw 2vw;
 }
+
+.more{
+  font-size: 1.5vw;
+  padding: 0vw 3vw;
+  text-decoration: underline;
+  color: darkseagreen;
+}
+
+.moreContainer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3vw auto;
+}
+
+.moreCard{
+  width: 30vw;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.238);
+}
+
+.moreCardImage{
+  width: 100%;
+}
+
+.moreCardHeading{
+  font-size: 3vw;
+  color: darkseagreen;
+  margin: 1vw 0vw;
+  padding: 0vw 1vw;
+}
+
+.moreCardPara{
+text-align: justify;
+font-size: 1.5vw;
+margin: 0.5vw auto;
+padding: 0vw 1vw;
+}
+
+
 * {
   /* border: 1px solid red; */
 }

@@ -10,6 +10,11 @@ const Dynamic = () => {
   const id = useParams().id;
   const [dataFromStore] = useContext(Store);
   const navigation = useNavigate();
+
+  const moreCards = dataFromStore
+    .filter((data) => data.id !== parseInt(id))
+    .slice(41, 44);
+
   return (
     <>
       {dataFromStore
@@ -17,7 +22,7 @@ const Dynamic = () => {
         .map((item, index) => {
           return (
             <div className="dynammic" key={index}>
-              <div className="dynamicContainerTop" >
+              <div className="dynamicContainerTop">
                 <div className="dynamicLeft">
                   <div className="likeContainer">
                     <img src={like} className="likeImage" alt="Err-/" />
@@ -50,25 +55,22 @@ const Dynamic = () => {
                 </div>
               </div>
               <div className="dynamicBottom">
-                <p className="more" onClick={()=> navigation('/')}>More From The Siren Blogs</p>
-                {/* {dataFromStore
-                  .filter((data) =>  data.category === data.id)
-                  .map((item, index) => {
-                    return (
-                      <>
-                        <div className="bottomCardContainer">
-                          <div className="bottomCard">
-                            <img
-                              src={item.image}
-                              alt="Err-/"
-                              className="bottomCardImg"
-                            />
-                            <h2 className="bottomCardTitle">{item.name}</h2>
-                          </div>
-                        </div>
-                      </>
-                    );
-                  })} */}
+                <div className="moreContainer">
+                  {moreCards.map((item) => (
+                    <div className="moreCard" key={item.id}>
+                      <img
+                        src={item.image}
+                        alt="err"
+                        className="moreCardImage"
+                      />
+                      <h2 className="moreCardHeading">{item.name}</h2>
+                      <p className="moreCardPara">{item.text.slice(0,130)}</p>
+                    </div>
+                  ))}
+                </div>
+                <p className="more" onClick={() => navigation("/")}>
+                  More From The Siren Blogs
+                </p>
               </div>
             </div>
           );
