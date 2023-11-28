@@ -1,14 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Store from "../store/Store";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
+import axios from "axios";
 
 const Hollywood = () => {
-  const [HollywoodData] = useContext(Store);
+  // const [HollywoodData] = useContext(Store);
+
+  const [getData, setGetData] = useState([])
+
+  useEffect(()=>{
+    axios.get("http://localhost:2100")
+    .then((res)=> setGetData(res.data))
+    .catch((err)=> console.log(err))
+  },[])
 
   const cate = "Hollywood";
 
-  const filtered = HollywoodData.filter((item) => item.category === cate);
+  const filtered = getData.filter((item) => item.category === cate);
 
   return (
     <>

@@ -7,7 +7,7 @@ const Logo = () => {
   const [open, setOpen] = useState(false);
 
   const handleMenu = () => {
-    setOpen(!open);
+    setOpen(!open) ;
   };
 
   return (

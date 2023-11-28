@@ -1,15 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Store from "../store/Store";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
+import axios from "axios";
 
 const Fitness = () => {
   
-  const [FitnessData] = useContext(Store);
+  // const [FitnessData] = useContext(Store);
+
+  const [getData, setGetData] = useState([])
+
+  useEffect(()=>{
+    axios.get("http://localhost:2100")
+    .then((res)=> setGetData(res.data))
+    .catch((err)=> console.log(err))
+  },[])
 
   const cate = "Fitness";
 
-  const filtered = FitnessData.filter((item) => item.category === cate);
+  const filtered = getData.filter((item) => item.category === cate);
 
   return (
     <>

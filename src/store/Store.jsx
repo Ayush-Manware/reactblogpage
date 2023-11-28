@@ -418,7 +418,7 @@ function StoredData(props) {
     <>
      <Store.Provider value={[data, setData]}>
         {props.children}
-     </Store.Provider>
+     </Store.Provider >
     </>
   )
 }

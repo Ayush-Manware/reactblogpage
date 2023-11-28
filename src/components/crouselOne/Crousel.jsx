@@ -22,12 +22,6 @@ const Crousel = () => {
     image16,
   ]);
 
-  // useEffect(()=>{
-  //     setInterval(()=>{
-  //         setSelectedImage(selectedImage => selectedImage < 10 ? selectedImage + 1 : 0)
-  //     },3000)
-  // })
-
   return (
     <div className="crouselContainer">
       <img

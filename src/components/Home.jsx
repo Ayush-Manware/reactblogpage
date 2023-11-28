@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Footer from "../footer/Footer";
 import Crousel from "./crouselOne/Crousel";
 import CrouselTwo from "./Crousel2";
@@ -6,12 +6,22 @@ import Store from "../store/Store";
 import rocket from "./crouselOne/rocket-launch-67643_1280.jpg";
 import sports from "./crouselOne/women-655353_1280.jpg";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Home = () => {
-  const [data] = useContext(Store);
-  const tech = data.filter((item) => item.category === "Technology");
-  const fit = data.filter((item) => item.category === "Fitness");
-  const food = data.filter((item) => item.category === "Food");
+  // const [data] = useContext(Store);
+
+  const [getData, setGetData] = useState([])
+
+  useEffect(()=>{
+    axios.get("http://localhost:2100")
+    .then((res)=> setGetData(res.data))
+    .catch((err)=> console.log(err))
+  },[])
+
+  const tech = getData.filter((item) => item.category === "Technology");
+  const fit = getData.filter((item) => item.category === "Fitness");
+  const food = getData.filter((item) => item.category === "Food");
 
   return (
     <>
