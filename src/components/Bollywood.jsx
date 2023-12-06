@@ -5,19 +5,13 @@ import axios from "axios";
 
 const Bollywood = () => {
  
-
-
-
   const [getData, setGeteData] = useState([])
   useEffect(()=>{
-    axios.get("http://localhost:2100")
+    axios.get("https://node-api-xlvx.onrender.com/")
     .then((res)=> setGeteData(res.data))
     .catch((err)=> console.log(err))
   },[])
   console.log(getData)
-
-
-  // const [bollywoodData] = useContext(Store);
 
   const cate = "Bollywood";
 

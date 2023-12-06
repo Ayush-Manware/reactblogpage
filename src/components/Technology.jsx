@@ -4,12 +4,11 @@ import Footer from "../footer/Footer";
 import axios from "axios";
 
 const Technology = () => {
-  // const [TechnologyData] = useContext(Store);
 
   const [getData, setGetData] = useState([])
 
   useEffect(()=>{
-    axios.get("http://localhost:2100")
+    axios.get("https://node-api-xlvx.onrender.com/")
     .then((res)=> setGetData(res.data))
     .catch((err)=> console.log(err))
   },[])
