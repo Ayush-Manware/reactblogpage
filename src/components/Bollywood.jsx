@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
-import Store from "../store/Store";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 import axios from "axios";

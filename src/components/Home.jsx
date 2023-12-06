@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../footer/Footer";
 import Crousel from "./crouselOne/Crousel";
 import CrouselTwo from "./Crousel2";
-import Store from "../store/Store";
 import rocket from "./crouselOne/rocket-launch-67643_1280.jpg";
 import sports from "./crouselOne/women-655353_1280.jpg";
 import { Link } from "react-router-dom";
